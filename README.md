@@ -4,7 +4,7 @@ This project uses machine learning to predict whether or not a current health in
 The underlying data came [from Kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction), and contains information on previous sales. the goal is to maximise profit by:
 
  * correctly identifying as non-many buyers as possible,
- * while also preserving as many sales as possible.</br><br><br>
+ * while also preserving as many sales as possible.
 
 The data was transformed and upsampled using SMOTENC prior to testing various classifiers, including logistic regression, support vector classifiers, KNN classifiers and random forest classifiers.
 
