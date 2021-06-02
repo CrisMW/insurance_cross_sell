@@ -1,7 +1,7 @@
 # Predicting insurance cross-sell with machine learning
 This project uses machine learning to predict whether or not a current health insurance customer will buy car insurance after being contacted with an offer.
 
-The underlying data came [from Kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction), and contains information on previous sales. the goal is to maximise profit by:
+The underlying data came [from Kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction), and contains information on previous sales. The goal is to maximise profit by:
 
  * correctly identifying as non-many buyers as possible,
  * while also preserving as many sales as possible.
