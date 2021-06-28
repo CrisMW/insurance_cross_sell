@@ -10,5 +10,5 @@ The data was transformed and upsampled using SMOTENC prior to testing various cl
 
 After testing classifiers with their default hyperparameters, a grid search was performed to identify the optimal combination of hyperparameters. A voting and stacking classifier were also tested.
 
-Ultimately, a linear support vector classifier (SVC) was chosen. It correctly identifies 52% of leads as non-buyers who should not be contacted. At the same time, the model correctly selects ~98% of the buyers for targetting. If implemented, the model would save between \\$52,000-\\$130,000 per 100,000 leads, depending on how leads are contacted (mail, e-mail or phone). The impact of the model is shown below:
+Ultimately, a linear support vector classifier (SVC) was chosen. It correctly identifies 52% of leads as non-buyers who should not be contacted. At the same time, the model correctly selects ~98% of the buyers for targetting. If implemented, the model would save between \$52,000-\$130,000 per 100,000 leads, depending on how leads are contacted (mail, e-mail or phone). The impact of the model is shown below:
 ![Visualizing model impact](model_impact_infographic.png)
